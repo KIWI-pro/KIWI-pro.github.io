@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@700&family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Lexend+Tera&display=swap');
+
+html {
+  // overflow: hidden;
+  font-size: calc(3px + 1.7vh);
+}
+
+body {
+  background-color: #f8f8ff;
+  justify-content: center;
+  font-family: 'Lexend Tera', sans-serif;
+}
+
+a {
+  margin: 1vw;
+  color: #2e2d2e;
+}
+
+a:hover {
+  color: #2e2d2e;
+}
+
+h3 {
+  font-family: 'Jura', sans-serif;
+}
+
+h2 {
+  color: #2e2d2e;
+  margin: 3vh;
+}
+
+.header {
+  margin: 1vh;
+  height: 10vh;
+  font-size: 2vw;
+}
+
+.body {
+  height: 80vh;
+  margin-bottom: 1vh;
+  color: #2e2d2e;
+}
+
+.footer {
+  height: 7vh;
+  background-color: #2e2d2e;
+  color: #2e2d2e;
+}
+
+.intro {
+  animation-name: intro_move;
+  animation-duration: 3s;
+  animation-fill-mode: both;
+  font-size: calc(7px + 4vh);
+  font-family: 'Caveat', cursive;
+}
+
+.skill {
+  animation-name: skill_move;
+  animation-duration: 3s;
+  animation-delay: 1s;
+  animation-fill-mode: both;
+  float: right;
+}
+
+.bio {
+  animation-name: bio_move;
+  animation-duration: 3s;
+  animation-fill-mode: both;
+  margin-top: 3vh;
+}
+
+.carousel {
+  background-color: #2e2d2e;
+  height: 70vh;
+  align-self: center;
+}
+
+.screen {
+  align-self: flex-end;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+}
+
+#logo {
+  height: 9vh;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+#portrait {
+  width: 40vw;
+}
+
+@keyframes intro_move {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes skill_move {
+  0% {
+    transform: translateY(550%);
+  }
+
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+@keyframes bio_move {
+  0% {
+    transform: translateX(110%);
+  }
+
+  100% {
+    transform: translateX(0%);
+  }
+}
