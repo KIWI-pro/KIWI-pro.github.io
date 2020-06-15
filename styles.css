@@ -62,7 +62,7 @@ h2 {
   animation-delay: 1s;
   animation-fill-mode: both;
   float: right;
-  font-size: calc(1px + 1.8vh);
+  font-size: 1.8vh;
 }
 
 .bio {
